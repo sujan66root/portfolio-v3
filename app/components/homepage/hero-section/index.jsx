@@ -33,7 +33,6 @@ function HeroSection() {
             Let's create something amazing together!
           </p>
 
-
           <div className="my-12 flex items-center gap-5">
             <Link
               href={personalData.github}
@@ -73,14 +72,13 @@ function HeroSection() {
               </button>
             </Link>
 
-            <Link className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold" role="button" target="_blank" href={personalData.resume}
-            >
+            <Link className="flex items-center gap-1 hover:gap-3 rounded-full bg-gradient-to-r from-pink-500 to-violet-600 px-3 md:px-8 py-3 md:py-4 text-center text-xs md:text-sm font-medium uppercase tracking-wider text-white no-underline transition-all duration-200 ease-out hover:text-white hover:no-underline md:font-semibold" role="button" target="_blank" href={personalData.resume}>
               <span>Get Resume</span>
               <MdDownload size={16} />
             </Link>
           </div>
-
         </div>
+
         <div className="order-1 lg:order-2 from-[#0d1224] border-[#1b2c68a0] relative rounded-lg border bg-gradient-to-r to-[#0a0d37]">
           <div className="flex flex-row">
             <div className="h-[1px] w-full bg-gradient-to-r from-transparent via-pink-500 to-violet-600"></div>
@@ -103,74 +101,70 @@ function HeroSection() {
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
-                <span className="text-gray-400">{`'`}</span>
+                <span className="text-gray-400">&apos;</span>
                 <span className="text-amber-300">Sujan Gautam</span>
-                <span className="text-gray-400">{`',`}</span>
+                <span className="text-gray-400">&apos;,</span>
               </div>
               <div className="ml-4 lg:ml-8 mr-2">
-                <span className=" text-white">skills:</span>
-                <span className="text-gray-400">{`['`}</span>
+                <span className="text-white">skills:</span>
+                <span className="text-gray-400">[</span>
                 <span className="text-amber-300">React</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, </span>
                 <span className="text-amber-300">Node</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, </span>
                 <span className="text-amber-300">Express</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, </span>
                 <span className="text-amber-300">Java</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, </span>
                 <span className="text-amber-300">Spring Boot</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, </span>
                 <span className="text-amber-300">J2EE</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, </span>
                 <span className="text-amber-300">JSP</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, </span>
                 <span className="text-amber-300">PostgreSQL</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, </span>
                 <span className="text-amber-300">MongoDB</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, </span>
                 <span className="text-amber-300">Hibernate</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, </span>
                 <span className="text-amber-300">Docker</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, </span>
                 <span className="text-amber-300">AWS</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, </span>
                 <span className="text-amber-300">Microservices</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, </span>
                 <span className="text-amber-300">Kafka</span>
-                <span className="text-gray-400">{"', '"}</span>
+                <span className="text-gray-400">&apos;, </span>
                 <span className="text-amber-300">MQTT</span>
-                <span className="text-gray-400">{"'],"}</span>
+                <span className="text-gray-400">]</span>
+                <span className="text-gray-400">,</span>
               </div>
               <div className="ml-4 lg:ml-8">
                 <span className="text-white">location:</span>
-                <span className="text-gray-400">{`[`}</span>
+                <span className="text-gray-400">[</span>
                 <span className="text-white">{"{"}</span>
                 <span className="ml-4 lg:ml-8 text-white">city:</span>
-                <span className="text-gray-400">{"'"}</span>
+                <span className="text-gray-400">&apos;</span>
                 <span className="text-amber-300">Toronto</span>
-                <span className="text-gray-400">{"'"}</span>
-                <span className="text-gray-400">,</span>
-                <span className="ml-4 lg:ml-8 text-white">state:</span>
-                <span className="text-gray-400">{"'"}</span>
-                <span className="text-amber-300">ON</span>
-                <span className="text-gray-400">{"'"}</span>
+                <span className="text-gray-400">&apos;,</span>
+                <span className="ml-4 lg:ml-8 text-white">country:</span>
+                <span className="text-gray-400">&apos;</span>
+                <span className="text-amber-300">Canada</span>
+                <span className="text-gray-400">&apos;</span>
                 <span className="text-gray-400">{"}"}</span>
-                <span className="text-gray-400">{`],`}</span>
+                <span className="text-gray-400">],</span>
               </div>
               <div>
-                <span className="ml-4 lg:ml-8 mr-2 text-white">education:</span>
-                <span className="text-gray-400">{"'"}</span>
-                <span className="text-amber-300">Postgraduate in Full Stack Software Development</span>
-                <span className="text-gray-400">{"'"}</span>
-                <span className="text-gray-400">,</span>
+                <span className="text-white">{"}"}</span>
+                <span className="text-gray-400">;</span>
               </div>
-              <span>{"};"}</span>
             </code>
           </div>
         </div>
       </div>
     </section>
   );
-};
+}
 
 export default HeroSection;
