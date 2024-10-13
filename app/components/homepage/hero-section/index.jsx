@@ -29,9 +29,10 @@ function HeroSection() {
             </span>.
           </h1>
           <p className="mt-4 text-lg text-gray-300 md:text-xl">
-            Welcome to my portfolio! I'm excited to showcase my projects and skills.
-            Let's create something amazing together!
+            Welcome to my portfolio! I&apos;m excited to showcase my projects and skills.
+            Let&apos;s create something amazing together!
           </p>
+
 
 
           <div className="my-12 flex items-center gap-5">
