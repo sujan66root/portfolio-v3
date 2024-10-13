@@ -7,8 +7,6 @@ Check out the live version of my portfolio here:
 
 This is my personal portfolio website, built using **Next.js** and **Tailwind**, to showcase my projects, skills, and contact information. It includes an interactive and responsive design with smooth transitions and various sections like About, Projects, Skills, Experience and Contact.
 
-View
-
 ## Features
 
 - **Responsive Design**: Fully optimized for different screen sizes.
