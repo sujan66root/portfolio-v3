@@ -44,7 +44,7 @@ export const projectsData = [
         description: 'App that fetches a list of popular movies from the TMDB API and displays them in a scrollable view',
         tools: ['React', 'Tailwind', 'Axios', '@tanstack / react - query', 'react - intersection - observer'],
         projectLink: "https://github.com/sujan66root/movie-verse",
-        demo: "https://github.com/sujan66root/movie-verse",
+        demo: "https://movie-verse-kohl.vercel.app",
         image: '/image/movie.png'
     },
     {
